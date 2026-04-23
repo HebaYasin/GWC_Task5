@@ -1,0 +1,99 @@
+lessons i learned:
+
+
+always make scripts. references, assets when creating/ editing a skill whenever needed to decrease Skill.md file size therefore decrease tokens usage as much as you can.
+
+for reading images, implement a pre-step that ensures no processing duplicated images or unuseful images such as loos or signitures. and a post-step to summarize insights from the attachment and only pass the summary to llm
+
+consider that you will be dealing with enormous data, design everything to be scalable and can perform batch processing and parallel processing.
+
+
+if passing a data structure between pipeline stages, store structure details in some database or local csv file and only pass {id, stag}
+
+always check for scripts in skills instead of wasting tokens to re-create what is already existing
+
+Always check /mnt/skills/user/ for applicable skills before responding.
+
+When assigned a task, operate autonomously to execute, test, and self-verify the solution end-to-end. Do not pause execution or return control to me until all specified requirements are strictly met and the solution is confirmed to be fully operational.
+
+Act as a rigorous, honest mentor. Do not default to agreement; prioritize helping me improve and refine my strategies over being agreeable.
+
+ Challenge assumptions while simultaneously showing genuine curiosity and care.
+
+When evaluating my inputs—whether they pertain to multi-region IT project portfolios, agentic AI workflows, or large-scale platform migrations proactively identify weaknesses, blind spots, and flawed logic. Always check for missing assumptions, particularly regarding risk management, timeline feasibility, and architectural scalability. Challenge my ideas directly and clearly, maintaining a constructive but never harsh tone.
+
+ Do not be afraid to contradict or critique my points, tell me what I need to hear, not what I want to hear.
+
+When you critique a concept, always explain your reasoning and suggest a concrete, better alternative. Frame your feedback using structured, metrics-driven logic where appropriate, but also push me to explore innovative, non-traditional solutions outside standard enterprise playbooks
+
+
+
+when reading, or merging or inserting data using cloude to a database either:
+write a script in python and give it 3 credentials
+use mcp. costs alot but make it process in batches
+
+
+
+
+
+
+
+
+
+connectors script:
+
+{
+  "mcpServers": {
+    "outlook-composio": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://backend.composio.dev/v3/mcp/da5b4103-9396-4072-a40b-e603cd37f225/mcp?user_id=pg-test-e84079c7-de7d-4cf7-a8e3-788ad6aed781"
+      ],
+      "env": {
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      }
+    },
+    "teams-composio": {
+      "command": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": [
+        "/C",
+        "C:\\Program Files\\nodejs\\npx.cmd",
+        "mcp-remote",
+        "https://backend.composio.dev/v3/mcp/c99cf0f8-c073-4ac1-830c-ad0787b3a20e/mcp?user_id=pg-test-e84079c7-de7d-4cf7-a8e3-788ad6aed781"
+      ],
+      "env": {
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      }
+    }
+  },
+  "preferences": {
+    "localAgentModeTrustedFolders": [
+      "C:\\Users\\hebah.yasin\\Desktop\\mail-to-lead testing",
+      "C:\\Users\\hebah.yasin\\Desktop\\mail-to-lead testing - Copy",
+      "C:\\Users\\hebah.yasin\\Desktop\\mail-to-lead testing - Copy (2)",
+      "C:\\Users\\hebah.yasin\\Desktop\\mail-to-lead testing - Copy (3)",
+      "C:\\Users\\hebah.yasin\\Desktop\\mailbox copies for testing",
+      "C:\\Users\\hebah.yasin\\Desktop\\task-kiran-detailed",
+      "C:\\Users\\hebah.yasin\\Desktop\\task-savikumar-detailed",
+      "C:\\Users\\hebah.yasin\\Desktop\\task-kiran",
+      "C:\\Users\\hebah.yasin\\Desktop\\task-savikumar",
+      "C:\\Users\\hebah.yasin\\Desktop\\mail-to-lead testing folder",
+      "C:\\Users\\hebah.yasin\\agentic-workflows",
+      "C:\\Users\\hebah.yasin\\Desktop\\task-mailbox-copy",
+      "C:\\Users\\hebah.yasin\\Desktop\\task 4",
+      "C:\\Users\\hebah.yasin\\Desktop\\marketing-campaign-leads-tracking automation",
+      "C:\\Users\\hebah.yasin\\OneDrive - Gulf Warehousing Company Q.P.S.C\\Desktop\\marketing-campaign-leads-tracking automation",
+      "C:\\Users\\hebah.yasin\\OneDrive - Gulf Warehousing Company Q.P.S.C\\Desktop\\Testing",
+      "C:\\Users\\hebah.yasin\\OneDrive - Gulf Warehousing Company Q.P.S.C\\Desktop\\Testing - Copy",
+      "C:\\Users\\hebah.yasin\\OneDrive - Gulf Warehousing Company Q.P.S.C\\Desktop\\Testing-leads-tracking",
+      "C:\\Users\\hebah.yasin\\OneDrive - Gulf Warehousing Company Q.P.S.C\\Desktop\\Testing-leads-tracking - Copy"
+    ],
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": false,
+    "keepAwakeEnabled": true,
+    "floatingAtollActive": true
+  }
+}
