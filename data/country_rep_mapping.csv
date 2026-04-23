@@ -1,0 +1,36 @@
+id,country_code,country_name,rep_email,rep_name,is_primary,active
+1,AE,UAE,farooque.vala@gwclogistics.com,Farooque Abdulkarimabdul Vala,TRUE,TRUE
+2,AE,UAE,dina.awad@gwclogistics.com,Dina Zuhair Ahmad Awad,FALSE,TRUE
+3,AE,UAE,bd.uae@gwclogistics.com,Business Development UAE,FALSE,TRUE
+4,QA,Qatar,Sujith.Sukumaran@gwclogistics.com,Sujith Sukumaran,FALSE,TRUE
+5,QA,Qatar,sreejith.sekhar@gwclogistics.com,Sreejith Mohan Sekhar,FALSE,TRUE
+6,QA,Qatar,rejsal.basheer@gwclogistics.com,Rejsal Kottikkal Basheer,FALSE,TRUE
+7,QA,Qatar,qusai.alattiyat@gwclogistics.com,Qusai Nael Abdulkareem Alattiyat,TRUE,TRUE
+8,QA,Qatar,daniel.cleetus@gwclogistics.com,Daniel Cleetus,FALSE,TRUE
+9,QA,Qatar,Rahul.Patil@gwclogistics.com,Rahul Manohar Patil,FALSE,TRUE
+10,QA,Qatar,Shibin.Cherian@gwclogistics.com,Shibin Shaji Cherian,FALSE,TRUE
+11,QA,Qatar,michael.john@gwclogistics.com,Michael Julius John,FALSE,TRUE
+12,QA,Qatar,vivin.iype@gwclogistics.com,Vivin Iype Mathew,FALSE,TRUE
+13,QA,Qatar,sridharan.v@gwclogistics.com,Sridharan Viswanathan,FALSE,TRUE
+14,QA,Qatar,anoop.valiyaparambil@gwclogistics.com,Anoop Varghese Varghese Valiyapara,FALSE,TRUE
+15,QA,Qatar,kiran.stephen@gwclogistics.com,Kiran Francis Stephen,FALSE,TRUE
+16,QA,Qatar,Sivakumar.U@gwclogistics.com,Sivakumar Unnikrishnan,FALSE,TRUE
+17,QA,Qatar,kishore.kumar@gwclogistics.com,Kishore Kumar Sivankutty Nair,FALSE,TRUE
+18,QA,Qatar,menon.rajiv@gwclogistics.com,Rajiv Menon,FALSE,TRUE
+19,SA,KSA,rafat.zourgan@gwclogistics.com,Rafat AlZourgan,TRUE,TRUE
+20,SA,KSA,mohammad.khorfan@gwclogistics.com,Mohammad Alaa Khorfan,FALSE,TRUE
+21,SA,KSA,haifa.thobaiti@gwclogistics.com,Haifa Saleem S Al Thobaiti,FALSE,TRUE
+22,SA,KSA,hamza.hajjir@gwclogistics.com,Hamza Hajjir,FALSE,TRUE
+23,SA,KSA,hossameldin.elheisky@gwclogistics.com,Hossameldin Elheisky,FALSE,TRUE
+24,SA,KSA,mahesh.muralidharan@gwclogistics.com,Mahesh Muralidharan,FALSE,TRUE
+25,SA,KSA,mirza.baig@gwclogistics.com,Mirza Ibad Baig,TRUE,TRUE
+26,SA,KSA,mubashar.ahmad@gwclogistics.com,Mubashar Nazir Ahmad,FALSE,TRUE
+27,OM,Oman,anand.muralidharan@gwclogistics.com,Anand Nair Muralidharan,TRUE,TRUE
+28,BH,Bahrain,rafat.zourgan@gwclogistics.com,Rafat AlZourgan,TRUE,TRUE
+29,BH,Bahrain,mohammad.khorfan@gwclogistics.com,Mohammad Alaa Khorfan,FALSE,TRUE
+30,BH,Bahrain,haifa.thobaiti@gwclogistics.com,Haifa Saleem S Al Thobaiti,FALSE,TRUE
+31,BH,Bahrain,hamza.hajjir@gwclogistics.com,Hamza Hajjir,FALSE,TRUE
+32,BH,Bahrain,hossameldin.elheisky@gwclogistics.com,Hossameldin Elheisky,FALSE,TRUE
+33,BH,Bahrain,mahesh.muralidharan@gwclogistics.com,Mahesh Muralidharan,FALSE,TRUE
+34,BH,Bahrain,mirza.baig@gwclogistics.com,Mirza Ibad Baig,TRUE,TRUE
+35,BH,Bahrain,mubashar.ahmad@gwclogistics.com,Mubashar Nazir Ahmad,FALSE,TRUE
